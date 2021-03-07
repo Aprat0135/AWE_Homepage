@@ -10,8 +10,8 @@ session_start();
     </head>
     <body>
         <?php 
-            include "header.php";
-            include "nav.html";
+            include "inc/header.php";
+            include "inc/nav.html";
         ?>
         <div class="main">
             <div class="div_login">
@@ -24,12 +24,12 @@ session_start();
                         echo "Hello " . $_SESSION['user'] . ". You are logged in.";
                     } else {
                         echo "Hello guest.";
-                        include 'login.html';
+                        include 'inc/login.html';
                     }
                 ?>
             </div>
             <img src="img\Hellraiser.png" alt="img\Hellraiser.png">
         </div>
-        <?php include "footer.html";?>
+        <?php include "inc/footer.html";?>
     </body>
 </html>

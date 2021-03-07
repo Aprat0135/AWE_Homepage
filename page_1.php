@@ -10,12 +10,12 @@ session_start();
     </head>
     <body>
         <?php 
-            include "header.php";
-            include "nav.html";
+            include "inc/header.php";
+            include "inc/nav.html";
         ?>
         <div class="main">
             <img src="img\Implements_Of_Hell.jpg" alt="img\Implements_Of_Hell.jpg">
         </div>
-        <?php include "footer.html";?>
+        <?php include "inc/footer.html";?>
     </body>
 </html>

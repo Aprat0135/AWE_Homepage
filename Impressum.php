@@ -10,10 +10,10 @@ session_start();
     </head>
     <body>
         <?php
-            include "header.php";
-            include "nav.html";
+            include "inc/header.php";
+            include "inc/nav.html";
             echo '<h2>bla bla Impressum bla bla</h2>';
-            include "footer.html";
+            include "inc/footer.html";
         ?>
     </body>
 </html>

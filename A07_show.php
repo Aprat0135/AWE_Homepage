@@ -10,8 +10,8 @@ session_start();
     </head>
     <body>
         <?php 
-            include "header.php";
-            include "nav.html";
+            include "inc/header.php";
+            include "inc/nav.html";
         ?>
         <div class="main">
             <?php
@@ -58,6 +58,6 @@ session_start();
             ?>
             
         </div>
-        <?php include "footer.html";?>
+        <?php include "inc/footer.html";?>
     </body>
 </html>
